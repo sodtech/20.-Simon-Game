@@ -80,7 +80,7 @@ function checkTurn(){
 
 function playGame () {
     // start game
-    $(document).one("click" , function () { 
+    $(document).one("keydown touchstart" , function () { 
         level = 1;
         gameStarted = true;
         generateNextLevelColor()
